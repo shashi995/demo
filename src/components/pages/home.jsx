@@ -45,13 +45,13 @@ export default function Home() {
               Get a demo
             </Link>
             <Link
-              href="/login"
+              to="/login"
               className="text-gray-700 hover:text-gray-900 border border-gray-300 rounded-md px-4 py-2"
             >
               Log in
             </Link>
             <Link
-              href="#"
+              to="/signup"
               className="bg-yellow-400 text-black font-medium rounded-md px-4 py-2 hover:bg-yellow-500"
             >
               Sign up for free
